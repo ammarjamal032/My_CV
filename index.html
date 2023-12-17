@@ -82,7 +82,23 @@
             <div class="h4 mt-0 title">Basic Information</div>
             <div class="row">
               <div class="col-sm-4"><strong class="text-uppercase">Age:</strong></div>
-              <div class="col-sm-8">23</div>
+              <div class="col-sm-8" id="counter"></div>
+              <script>
+                var then1 = new Date(1998, 07, 01), // month is zero based
+                     now1  = new Date;               // no arguments -> current date
+        
+                // 24 hours, 60 minutes, 60 seconds, 1000 milliseconds  
+                    days11 = (Math.round((now1 - then1) / (1000 * 60 * 60 * 24))+30); // round the amount of days
+                    // result: 712
+        
+                    years1 =  days11/365
+                    years1 = years1+0.1;
+                    
+                    
+        
+                    document.getElementById('counter').innerHTML = `${years1.toFixed(1)} Years`;
+                    
+            </script>
             </div>
             <div class="row mt-3">
               <div class="col-sm-4"><strong class="text-uppercase">Email:</strong></div>
