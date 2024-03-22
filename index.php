@@ -240,7 +240,7 @@
           <ul class="nav nav-pills nav-pills-primary" role="tablist">
             <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#web-development" role="tablist"><i class="fa fa-laptop" aria-hidden="true"></i></a></li>
             <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#graphic-design" role="tablist"><i class="fa fa-picture-o" aria-hidden="true"></i></a></li>
-            <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#Photography" role="tablist"><i class="fa fa-camera" aria-hidden="true"></i></a></li>
+            <!-- <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#Photography" role="tablist"><i class="fa fa-camera" aria-hidden="true"></i></a></li> -->
           </ul>
         </div>
       </div>
@@ -250,27 +250,27 @@
         <div class="ml-auto mr-auto">
           <div class="row">
             <div class="col-md-6">
-              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#web-development">
-                  <figure class="cc-effect"><img src="images/Project1.png" alt="Image"/>
+              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="https://betrusts.in/">
+                  <figure class="cc-effect"><img src="images/01.PNG" alt="Image"/>
                     <figcaption>
-                      <div class="h4">Academic Project</div>
-                      <p>Face Mask Detection</p>
+                      <div class="h4">Web Development</div>
+                      <p>Bismilah Educational Trust</p>
                     </figcaption>
                   </figure></a></div>
               <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#web-development">
                   <figure class="cc-effect"><img src="images/project2.jpg" alt="Image"/>
                     <figcaption>
-                      <div class="h4">Academic Project</div>
-                      <p>Face Detection</p>
+                    <div class="h4">Academic Project</div>
+                      <p>Facemask Detetcion Using ML</p>
                     </figcaption>
                   </figure></a></div>
             </div>
             <div class="col-md-6">
-              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#web-development">
-                  <figure class="cc-effect"><img src="images/project3.JPG" alt="Image"/>
+              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="https://mubarakpurparamedical.com/">
+                  <figure class="cc-effect"><img src="images/02.PNG" alt="Image"/>
                     <figcaption>
-                      <div class="h4">Academic Project</div>
-                      <p>Hostel Management</p>
+                    <div class="h4">Web Development</div>
+                      <p>Mubarakpur Paramedical College</p>
                     </figcaption>
                   </figure></a></div>
               <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#web-development">
@@ -287,32 +287,32 @@
       <div class="tab-pane" id="graphic-design" role="tabpanel">
         <div class="ml-auto mr-auto">
           <div class="row">
-            <div class="col-md-6">
+          <div class="col-md-6">
               <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#graphic-design">
-                  <figure class="cc-effect"><img src="images/GRPH1.jpg" alt="Image"/>
+                  <figure class="cc-effect"><img src="images/03.jpg" alt="Image"/>
                     <figcaption>
                       <div class="h4">Social Media Post</div>
                       <p>Graphic Design</p>
                     </figcaption>
                   </figure></a></div>
               <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#graphic-design">
-                  <figure class="cc-effect"><img src="images/GRPH2.jpg" alt="Image"/>
+                  <figure class="cc-effect"><img src="images/MODERN 3D LOGO.jpg" alt="Image"/>
                     <figcaption>
-                      <div class="h4">Social Media Post</div>
+                    <div class="h4">LOGO</div>
                       <p>Graphic Design</p>
                     </figcaption>
                   </figure></a></div>
             </div>
             <div class="col-md-6">
               <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#graphic-design">
-                  <figure class="cc-effect"><img src="images/GRPH3.png" alt="Image"/>
+                  <figure class="cc-effect"><img src="images/04.jpg" alt="Image"/>
                     <figcaption>
                       <div class="h4">Social Media Post</div>
                       <p>Graphic Design</p>
                     </figcaption>
                   </figure></a></div>
               <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#graphic-design">
-                  <figure class="cc-effect"><img src="images/GRPH4.jpg" alt="Image"/>
+                  <figure class="cc-effect"><img src="images/05.jpg" alt="Image"/>
                     <figcaption>
                       <div class="h4">LOGO</div>
                       <p>Graphic Design</p>
@@ -322,10 +322,10 @@
           </div>
         </div>
       </div>
-      <div class="tab-pane" id="Photography" role="tabpanel">
+      <!-- <div class="tab-pane" id="Photography" role="tabpanel">
         <div class="ml-auto mr-auto">
           <div class="row">
-            <div class="col-md-6">
+          <div class="col-md-6">
               <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#Photography">
                   <figure class="cc-effect"><img src="images/photography-1.jpg" alt="Image"/>
                     <figcaption>
@@ -359,7 +359,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
     </div>
   </div>
 </div>
@@ -371,26 +371,26 @@
         <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
           <div class="card-body cc-experience-header">
             <p>Present</p>
-            <div class="h5" id="counter1"></div>
+            <?php
+    // Get the current date
+    $then = strtotime('2022-02-28'); // Convert specific date to timestamp
+    $now = strtotime(date('Y-m-d')); // Convert current date to timestamp
 
-           
+    // Calculate the difference in seconds
+    $diffInSeconds = $now - $then;
 
-    <script>
-        var then = new Date(2022, 2, 28), // month is zero based
-             now  = new Date;               // no arguments -> current date
+    // Calculate the difference in total months
+    $totalMonths = floor(($diffInSeconds / (60 * 60 * 24 * 30)));
 
-        // 24 hours, 60 minutes, 60 seconds, 1000 milliseconds  
-            days1 = (Math.round((now - then) / (1000 * 60 * 60 * 24))+30); // round the amount of days
-            // result: 712
+    // Calculate the years with decimal places
+    $years = $totalMonths / 12;
 
-            years =  days1/365
-            years = years+0.1;
-            
-            
+    //echo number_format($years, 1); // Output with one decimal place
+?>
 
-            document.getElementById('counter1').innerHTML = `${years.toFixed(1)} Years`;
-            
-    </script>
+            <div class="h5" id="counter1"><?php echo number_format($years, 1). " Years";?></div>
+        
+    
           </div>
         </div>
         <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
@@ -403,7 +403,7 @@
 
               <ul>
                 <li>Managed Level 2 production incidents for HNW Mutual Fund applications.</li>
-                <li>Successfully reduced ticket volume by nearly 90% over 2 years through continuous application improvement and addressing long-standing performance issues.</li>
+                <li>Successfully reduced ticket volume by nearly 90% over <?php echo number_format($years, 1). " years";?> through continuous application improvement and addressing long-standing performance issues.</li>
                 <li>Identified and resolved medium to highly complex production problems.</li>
                 <li>Executed deployment of project/service delivery changes into UAT and Production environments.</li>
                 <li>Conducted weekly system health checks on the production environment, including post-patching evaluations.</li>
@@ -416,31 +416,57 @@
                 <li>Contributed to on-demand projects such as File Transfer Automation, Single Sign-On (SSO) implementation for an application, and establishing a new CRM project for the Canada region.</li>
                 <li>Additionally, involved in on-call duties, release management, and vulnerability management within the aforementioned responsibilities.</li>
               </ul>
-            
+              
             </p>
 
           </div>
         </div>
       </div>
     </div>
-    <!--
+    
     <div class="card">
       <div class="row">
         <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+        <?php
+    // Get the current date
+    $then = strtotime('2019-02-01'); // Convert specific date to timestamp
+    $now = strtotime(date('Y-m-d')); // Convert current date to timestamp
+
+    // Calculate the difference in seconds
+    $diffInSeconds = $now - $then;
+
+    // Calculate the difference in total months
+    $totalMonths = floor(($diffInSeconds / (60 * 60 * 24 * 30)));
+
+    // Calculate the years with decimal places
+    $years = $totalMonths / 12;
+
+    //echo number_format($years, 1); // Output with one decimal place
+?>
           <div class="card-body cc-experience-header">
-            <p>April 2014 - March 2016</p>
-            <div class="h5">WebNote</div>
+            <p>Freelancer</p>
+            <div class="h5"><?php echo number_format($years, 1). " Years";?></div>
           </div>
         </div>
         <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
           <div class="card-body">
-            <div class="h5">Web Developer</div>
-            <p>Euismod massa scelerisque suspendisse fermentum habitant vitae ullamcorper magna quam iaculis, tristique sapien taciti mollis interdum sagittis libero nunc inceptos tellus, hendrerit vel eleifend primis lectus quisque cubilia sed mauris. Lacinia porta vestibulum diam integer quisque eros pulvinar curae, curabitur feugiat arcu vivamus parturient aliquet laoreet at, eu etiam pretium molestie ultricies sollicitudin dui.</p>
-
+            <div class="h5">Web Developer & Graphic Designer</div>
+           <p><ul>
+  <li>Over <?php echo number_format($years, 1). " Years";?> years of combined experience as a Web Developer and Graphic Designer</li>
+  <li>Contributed to numerous projects, including 
+  <span class="category"><a href="https://mubarakpurparamedical.com/">Mubarakpur Paramedical College</a></span>,
+  <span class="category"><a href="https://betrusts.in/">Bismilah Educational Trust</a></span> and many more.</li>
+  <li>Proficient in creating dynamic and visually appealing websites</li>
+  <li>Experience in front-end development, back-end integration, and database management</li>
+  <li>Skilled in crafting engaging visual assets and branding materials</li>
+  <li>Ability to collaborate effectively with multidisciplinary teams</li>
+  <li>Dedicated to delivering results that exceed expectations</li>
+</ul></p>
           </div>
         </div>
       </div>
     </div>
+    <!--
     <div class="card">
       <div class="row">
         <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
