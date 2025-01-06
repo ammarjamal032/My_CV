@@ -49,16 +49,16 @@
       <div class="page-header-image" data-parallax="true" style="background-image: url('images/30100.jpg')"></div>
       <div class="container">
         <div class="content-center">
-          <div class="cc-profile-image"><a href="#"><img src="images/ammar.jpg" alt="Image"/></a></div>
+          <div class="cc-profile-image"><a href="#"><img src="images/ammarnew.jpg" alt="Image"/></a></div>
           <div class="h2 title">AMMAR JAMAL</div>
           <p class="category text-white">Software Engineer</p><a class="btn btn-primary smooth-scroll mr-2" href="#contact" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Hire Me</a>
-          <a class="btn btn-primary" href="doc/Updated 22-12-2021.pdf" data-aos="zoom-in" data-aos-anchor="data-aos-anchor" target="_blank">Download CV</a>
+          <a class="btn btn-primary" href="./doc/ammar_jamal_AD.pdf" data-aos="zoom-in" data-aos-anchor="data-aos-anchor" target="_blank">Download CV</a>
         </div>
       </div>
       <div class="section">
         <div class="container">
-          <div class="button-container"><a class="btn btn-default btn-round btn-lg btn-icon" href="#" rel="tooltip" title="Follow me on Facebook" target="_blank"><i class="fa fa-facebook"></i></a>
-            <a class="btn btn-default btn-round btn-lg btn-icon" href="#" rel="tooltip" title="Follow me on Twitter" target="_blank"><i class="fa fa-twitter"></i></a>
+          <div class="button-container"><a class="btn btn-default btn-round btn-lg btn-icon" href="https://www.facebook.com/share/14nEJLXRVM/?mibextid=wwXIfr" rel="tooltip" title="Follow me on Facebook" target="_blank"><i class="fa fa-facebook"></i></a>
+            <a class="btn btn-default btn-round btn-lg btn-icon" href="https://x.com/ammarja11695462?s=21" rel="tooltip" title="Follow me on Twitter" target="_blank"><i class="fa fa-twitter"></i></a>
             <a class="btn btn-default btn-round btn-lg btn-icon" href="https://github.com/ammarjamal032" rel="tooltip" title="Chechout my Github" target="_blank"><i class="fa fa-github"></i></a>
             <a class="btn btn-default btn-round btn-lg btn-icon" href="https://www.instagram.com/ammarjamal0/" rel="tooltip" title="Follow me on Instagram" target="_blank"><i class="fa fa-instagram"></i></a></div>
         </div>
@@ -74,17 +74,11 @@
           <div class="card-body">
             <div class="h4 mt-0 title">Professional Summary</div>
           
-            <p>Highly motivated IT professional with over 2 years of experience in
-              Application/Production Support role supporting various Unix/Windows, client
-              server, mobile and web based application.
+            <p>Highly motivated IT professional with over 2.10 years of experience as a Data Engineer specializing in Azure Data Factory (ADF), SSIS, Python, and SQL Server, with expertise in the ETL process of investment banking data.
               </p><p>
-              Outstanding ability to analyze, develop and implement technology solutions.
-              Reliable team player with effective troubleshooting and debugging experience.
-              
+              Outstanding ability to analyze, develop, and implement technology solutions. A reliable team player with effective troubleshooting and debugging skills. 
             </p><p>
-              Equally strong project leadership - introduces out-of-the box thinking and
-              problem-solving analysis that improve processes, systems, and methodologies
-              currently in place and exceed business goals and customer expectations.</p>
+            Strong project leadership with innovative problem-solving analysis that enhances processes, systems, and methodologies, consistently exceeding business goals and customer expectations.</p>
           </div>
         </div>
         <div class="col-lg-6 col-md-12">
@@ -94,21 +88,19 @@
               <div class="col-sm-4"><strong class="text-uppercase">Age:</strong></div>
               <div class="col-sm-8" id="counter"></div>
               <script>
-                var then1 = new Date(1998, 7, 1), // month is zero based
-                     now1  = new Date;               // no arguments -> current date
-        
-                // 24 hours, 60 minutes, 60 seconds, 1000 milliseconds  
-                    days11 = (Math.round((now1 - then1) / (1000 * 60 * 60 * 24))+30); // round the amount of days
-                    // result: 712
-        
-                    years1 =  days11/365
-                    years1 = years1+0.1;
-                    
-                    
-        
-                    document.getElementById('counter').innerHTML = `${years1.toFixed(1)} Years`;
-                    
-            </script>
+    // Define the specific date (month is 0-based) and current date
+    var then1 = new Date(1998, 7, 1); // August 1, 1998
+    var now1 = new Date();            // Current date
+
+    // Calculate the difference in years and months
+    var totalMonths = (now1.getFullYear() - then1.getFullYear()) * 12 + (now1.getMonth() - then1.getMonth());
+    var fullYears = Math.floor(totalMonths / 12);       // Full years
+    var remainingMonths = totalMonths % 12;            // Remaining months
+
+    // Display the result in the HTML element with ID 'counter'
+    document.getElementById('counter').innerHTML = `${fullYears} Years and ${remainingMonths} Months`;
+</script>
+
             </div>
             <div class="row mt-3">
               <div class="col-sm-4"><strong class="text-uppercase">Email:</strong></div>
@@ -147,14 +139,14 @@
       <div class="card-body">
         <div class="row">
           <div class="col-md-6">
-            <div class="progress-container progress-primary"><span class="progress-badge">Java & SpringBoot</span>
+            <div class="progress-container progress-primary"><span class="progress-badge">Data Integration and ETL Processes</span>
               <div class="progress">
-                <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 80%;"></div><span class="progress-value">80%</span>
+                <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 70%;"></div><span class="progress-value">70%</span>
               </div>
             </div>
           </div>
           <div class="col-md-6">
-            <div class="progress-container progress-primary"><span class="progress-badge">Linux/Unix</span>
+            <div class="progress-container progress-primary"><span class="progress-badge">ADF (Azure Data Factory)</span>
               <div class="progress">
                 <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 75%;"></div><span class="progress-value">75%</span>
               </div>
@@ -170,7 +162,7 @@
             </div>
           </div>
           <div class="col-md-6">
-            <div class="progress-container progress-primary"><span class="progress-badge">C#</span>
+            <div class="progress-container progress-primary"><span class="progress-badge">SSIS (SQL Server Integration Services)</span>
               <div class="progress">
                 <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"></div><span class="progress-value">60%</span>
               </div>
@@ -179,14 +171,14 @@
         </div>
         <div class="row">
           <div class="col-md-6">
-            <div class="progress-container progress-primary"><span class="progress-badge">HTML, CSS, Javascript & Angular</span>
+            <div class="progress-container progress-primary"><span class="progress-badge">Data Analysis and Troubleshooting</span>
               <div class="progress">
                 <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 75%;"></div><span class="progress-value">75%</span>
               </div>
             </div>
           </div>
           <div class="col-md-6">
-            <div class="progress-container progress-primary"><span class="progress-badge">PHP</span>
+            <div class="progress-container progress-primary"><span class="progress-badge">Project Management and Collaboration</span>
               <div class="progress">
                 <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 70%;"></div><span class="progress-value">70%</span>
               </div>
@@ -196,13 +188,13 @@
           <div class="col-md-6">
             <div class="progress-container progress-primary"><span class="progress-badge">Python</span>
               <div class="progress">
-                <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 55%;"></div><span class="progress-value">55%</span>
+                <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 65%;"></div><span class="progress-value">65%</span>
               </div>
             </div>
           </div>
 
           <div class="col-md-6">
-            <div class="progress-container progress-primary"><span class="progress-badge">MS Server, Service Now, JIRA</span>
+            <div class="progress-container progress-primary"><span class="progress-badge">Scripting and Automation</span>
               <div class="progress">
                 <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;"></div><span class="progress-value">80%</span>
               </div>
@@ -210,7 +202,7 @@
           </div>
 
           <div class="col-md-6">
-            <div class="progress-container progress-primary"><span class="progress-badge">Release & Vulnerability management</span>
+            <div class="progress-container progress-primary"><span class="progress-badge">Control-M</span>
               <div class="progress">
                 <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;"></div><span class="progress-value">90%</span>
               </div>
@@ -218,9 +210,9 @@
           </div>
 
           <div class="col-md-6">
-            <div class="progress-container progress-primary"><span class="progress-badge">Graphic Design</span>
+            <div class="progress-container progress-primary"><span class="progress-badge">Snowflake</span>
               <div class="progress">
-                <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;"></div><span class="progress-value">90%</span>
+                <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 70%;"></div><span class="progress-value">70%</span>
               </div>
             </div>
           </div>
@@ -372,23 +364,25 @@
           <div class="card-body cc-experience-header">
             <p>Present</p>
             <?php
-    // Get the current date
-    $then = strtotime('2022-02-28'); // Convert specific date to timestamp
-    $now = strtotime(date('Y-m-d')); // Convert current date to timestamp
+// Define the specific date and current date
+$then = new DateTime('2022-02-28');
+$now = new DateTime();
 
-    // Calculate the difference in seconds
-    $diffInSeconds = $now - $then;
+// Calculate the difference
+$interval = $then->diff($now);
 
-    // Calculate the difference in total months
-    $totalMonths = floor(($diffInSeconds / (60 * 60 * 24 * 30)));
+// Extract full years and remaining months
+$fullYears = $interval->y;  // Full years
+$remainingMonths = $interval->m;  // Remaining months
 
-    // Calculate the years with decimal places
-    $years = $totalMonths / 12;
-
-    //echo number_format($years, 1); // Output with one decimal place
+// Display the result
 ?>
+<div class="h5" id="counter1">
+    <?php echo "$fullYears Years $remainingMonths Months"; ?>
+</div>
 
-            <div class="h5" id="counter1"><?php echo number_format($years, 1). " Years";?></div>
+
+
         
     
           </div>
@@ -402,20 +396,25 @@
               
 
               <ul>
-                <li>Managed Level 2 production incidents for HNW Mutual Fund applications.</li>
-                <li>Successfully reduced ticket volume by nearly 90% over <?php echo number_format($years, 1). " years";?> through continuous application improvement and addressing long-standing performance issues.</li>
-                <li>Identified and resolved medium to highly complex production problems.</li>
-                <li>Executed deployment of project/service delivery changes into UAT and Production environments.</li>
-                <li>Conducted weekly system health checks on the production environment, including post-patching evaluations.</li>
-                <li>Developed Root Cause Analyses and disaster recovery plans.</li>
-                <li>Coordinated and maintained the Service Now Rota for on-call scheduling.</li>
-                <li>Demonstrated proficiency in Service Now, UNIX, Windows, Mainframe, SQL, Control-M, SSIS, and CRM.</li>
-              </ul>
+                <li><b>Managed Data Integration and ETL Processes:</b><br>
+                Designed, developed, and managed ETL pipelines using Azure Data Factory (ADF) and SSIS, significantly improving data integration and transformation processes. Successfully reduced ticket volume by nearly 90% over 2.5 years through continuous improvement of ETL pipelines and addressing performance issues in data workflows.
+              </li>
+                <li><b>Data Analysis, Troubleshooting, and Optimization:</b>
+                Identified and resolved medium to highly complex production problems, including data inconsistencies and ETL failures, enhancing overall system reliability. Developed Root Cause Analyses and implemented solutions to optimize ETL processes, significantly reducing system downtime and improving performance.
+              </li>
+                <li><b>Database Management and Data Modelling:</b>
+                Executed deployment of changes into UAT and Production environments, focusing on SQL Server performance tuning and database schema optimization to enhance data storage solutions. Conducted weekly health checks on production databases, ensuring optimal performance post-deployment and during routine maintenance.
+              </li>
+                <li><b>Scripting and Automation:</b>Proficiently used Python for automating ETL tasks, data manipulation, and streamlining data processing workflows. Automated repetitive tasks, such as file transfers and data validation, improving operational efficiency and reducing manual intervention.</li>
+                <li><b>Project Management and Cross-Functional Collaboration:</b>
+                Coordinated with cross-functional teams to deliver data-driven solutions, including the implementation of Single Sign-On (SSO) for a critical application and establishing a new CRM project for the Canada region.
+              </li>
+                <li><b>Performance Monitoring and Incident Management:</b>
+                Developed disaster recovery plans and conducted comprehensive system health checks, ensuring data integrity and system resilience during critical events. Managed Level 2 production incidents for High Net Worth (HNW) Investment Banking applications, applying advanced troubleshooting skills to resolve data and performance issues promptly.
+              </li>
+               </ul>
               
-              <ul>
-                <li>Contributed to on-demand projects such as File Transfer Automation, Single Sign-On (SSO) implementation for an application, and establishing a new CRM project for the Canada region.</li>
-                <li>Additionally, involved in on-call duties, release management, and vulnerability management within the aforementioned responsibilities.</li>
-              </ul>
+          
               
             </p>
 
@@ -700,8 +699,8 @@
     </div>
     <footer class="footer">
       <div class="container text-center">
-        <a class="cc-facebook btn btn-link" href="#"><i class="fa fa-facebook fa-2x " aria-hidden="true"></i></a>
-        <a class="cc-twitter btn btn-link " href="#"><i class="fa fa-twitter fa-2x " aria-hidden="true"></i></a>
+        <a class="cc-facebook btn btn-link" href="https://www.facebook.com/share/14nEJLXRVM/?mibextid=wwXIfr"><i class="fa fa-facebook fa-2x " aria-hidden="true"></i></a>
+        <a class="cc-twitter btn btn-link " href="https://x.com/ammarja11695462?s=21"><i class="fa fa-twitter fa-2x " aria-hidden="true"></i></a>
         <a class="cc-google-plus btn btn-link" href="https://github.com/ammarjamal032"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
         <a class="cc-instagram btn btn-link" href="https://www.instagram.com/ammarjamal0/"><i class="fa fa-instagram fa-2x " aria-hidden="true"></i></a>
       </div>
